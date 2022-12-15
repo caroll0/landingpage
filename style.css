@@ -1,0 +1,126 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header .navegation ul{
+    position: relative;
+    display: flex;
+}
+header .navegation  li{
+    list-style: none;
+}
+header .navegation li a{
+    display: inline-block;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 10vh;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #a09c9c;
+    overflow: hidden;
+}
+
+h1{
+    margin-left: 69px;
+    margin-top: 50px;
+}
+
+header.logo{
+    position: relative;
+    max-width: 150px;
+}
+
+img{
+    width: 110px;
+
+}
+
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 2vw;
+}
+
+
+.foto-album img{
+    width: 110%;
+    height: 110%;
+    object-fit: cover;
+    border-radius: 2em;
+}
+
+
+.foto-album {
+    width: 150px;
+    height: 160px;
+    border: 2px solid rgb(201, 232, 241);
+    border-radius: 2em;
+    box-shadow: 5px 5px 5px rgb(70, 69, 69);
+    flex-grow: 1;
+    transition: transform 0.1s;
+   
+}
+
+.foto-album:hover{
+transform: scale(.9);
+}
+
+.logo img{
+    width: 100px;
+
+}
+.ps{
+    position: absolute;
+    left: 50%;
+
+}
+.ps img{
+    width: 70%;
+    height: 40%;
+  
+}
+.text{
+    width: 40%;
+    margin-top: 50px;
+    margin-left: 70px;
+}
+.text a{
+    background-color: rgb(51, 127, 240);
+    padding: 10px;
+    border-radius: 2em;
+    color: #fff;
+    text-decoration: none;
+ box-shadow: 2px 2px 2px black;
+}
+
+.text a:visited{
+    background-color: rgb(51, 127, 240);
+    padding: 10px;
+    border-radius: 2em;
+    color: #fff;
+    text-decoration: none;
+    box-shadow: 2px 2px 2px black;
+}
+
+p{
+    width: 100%;
+    font-size: 25px;
+    
+}
